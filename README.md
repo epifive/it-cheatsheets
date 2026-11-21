@@ -1,8 +1,15 @@
 # IT command cheat sheets
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+<!-- epifive:header -->
+> 730 verified commands for 13 IT platforms, ready to copy, with a searchable web version and PDFs on epifive.com.
 
-662 everyday commands for 12 platforms that IT admins and network engineers use every week: Cisco, Juniper, FortiGate, MikroTik, Ubiquiti, Linux and Windows networking, Git, Azure CLI, Active Directory, Exchange Online and Microsoft Graph PowerShell. Every command is checked against the vendor's official documentation, destructive commands carry a warning, and each sheet lists the pages it was verified against.
+[![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-0a7560?style=flat-square)](LICENSE)
+[![Latest release](https://img.shields.io/github/v/release/epifive/it-cheatsheets?style=flat-square&label=release&color=4f5bd5)](https://github.com/epifive/it-cheatsheets/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/epifive/it-cheatsheets?style=flat-square&color=b5791b)](https://github.com/epifive/it-cheatsheets/stargazers)
+
+**[Web version & docs on epifive.com](https://www.epifive.com/cheatsheets?utm_source=github&utm_medium=readme&utm_campaign=it-cheatsheets)** · **[Download the latest release](https://github.com/epifive/it-cheatsheets/releases/latest)**
+
+730 everyday commands for 13 platforms that IT admins and network engineers use every week: Cisco, Juniper, FortiGate, MikroTik, Ubiquiti, Linux and Windows networking, Git, Azure CLI, Active Directory, Exchange Online and Microsoft Graph PowerShell. Every command is checked against the vendor's official documentation, destructive commands carry a warning, and each sheet lists the pages it was verified against.
 
 Maintained by [EpiFive](https://www.epifive.com). Searchable, copy-button version with PDF downloads: https://www.epifive.com/cheatsheets
 
@@ -28,10 +35,11 @@ Maintained by [EpiFive](https://www.epifive.com). Searchable, copy-button versio
 | [Linux networking](sheets/linux-networking.md) | Linux (Debian, Ubuntu, RHEL and derivatives) | 57 | 2026-10-28 | [epifive.com/cheatsheets/linux-networking](https://www.epifive.com/cheatsheets/linux-networking) |
 | [Microsoft Graph PowerShell](sheets/microsoft-graph-powershell.md) | Microsoft Entra ID and Microsoft 365 | 45 | 2026-10-28 | [epifive.com/cheatsheets/microsoft-graph-powershell](https://www.epifive.com/cheatsheets/microsoft-graph-powershell) |
 | [MikroTik RouterOS v7](sheets/mikrotik-routeros.md) | RouterOS | 60 | 2026-10-28 | [epifive.com/cheatsheets/mikrotik-routeros](https://www.epifive.com/cheatsheets/mikrotik-routeros) |
+| [Power Automate expressions](sheets/power-automate-expressions.md) | Power Automate cloud flows and Azure Logic Apps | 68 | 2026-10-29 | [epifive.com/cheatsheets/power-automate-expressions](https://www.epifive.com/cheatsheets/power-automate-expressions) |
 | [Ubiquiti EdgeOS / UniFi](sheets/ubiquiti-unifi-edgeos.md) | EdgeOS (EdgeRouter) and UniFi devices | 48 | 2026-10-28 | [epifive.com/cheatsheets/ubiquiti-unifi-edgeos](https://www.epifive.com/cheatsheets/ubiquiti-unifi-edgeos) |
 | [Windows networking](sheets/windows-networking.md) | Windows and Windows Server | 57 | 2026-10-28 | [epifive.com/cheatsheets/windows-networking](https://www.epifive.com/cheatsheets/windows-networking) |
 
-**662 commands** in total, last verified 2026-10-28.
+**730 commands** in total, last verified 2026-10-29.
 
 Each sheet groups commands by task in a `Command | What it does | Example` table, followed by a short FAQ and the official references.
 
@@ -69,4 +77,4 @@ The cheat sheet content is licensed under [Creative Commons Attribution 4.0 Inte
 
 ---
 
-Made by [EpiFive](https://www.epifive.com): practical IT, cloud and networking guides.
+<p align="center">Made by <b>EpiFive</b> — <a href="https://www.epifive.com/?utm_source=github&utm_medium=readme&utm_campaign=it-cheatsheets">www.epifive.com</a> · <a href="https://www.epifive.com/open-source?utm_source=github&utm_medium=readme&utm_campaign=it-cheatsheets">more open-source projects</a></p>

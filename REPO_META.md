@@ -4,7 +4,7 @@ For the GitHub "About" box.
 
 **Name:** it-cheatsheets
 
-**Description:** 662 verified IT command cheat sheets for Cisco IOS, Juniper Junos, FortiGate, MikroTik, Ubiquiti, Linux, Windows, Git, Azure CLI and Microsoft 365 PowerShell. CC BY 4.0.
+**Description:** 730 verified IT command cheat sheets for Cisco IOS, Juniper Junos, FortiGate, MikroTik, Ubiquiti, Linux, Windows, Git, Azure CLI and Microsoft 365 PowerShell. CC BY 4.0.
 
 **Website:** https://www.epifive.com/cheatsheets
 

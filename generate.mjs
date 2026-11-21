@@ -126,10 +126,7 @@ for (const d of sheets) {
 
 const R = [];
 R.push('# IT command cheat sheets', '');
-R.push(
-  `[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)`,
-  '',
-);
+R.push('<!-- epifive:header -->', `> ${total} verified commands for ${sheets.length} IT platforms, ready to copy, with a searchable web version and PDFs on epifive.com.\n\n[![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-0a7560?style=flat-square)](LICENSE)\n[![Latest release](https://img.shields.io/github/v/release/epifive/it-cheatsheets?style=flat-square&label=release&color=4f5bd5)](https://github.com/epifive/it-cheatsheets/releases/latest)\n[![GitHub stars](https://img.shields.io/github/stars/epifive/it-cheatsheets?style=flat-square&color=b5791b)](https://github.com/epifive/it-cheatsheets/stargazers)\n\n**[Web version & docs on epifive.com](https://www.epifive.com/cheatsheets?utm_source=github&utm_medium=readme&utm_campaign=it-cheatsheets)** · **[Download the latest release](https://github.com/epifive/it-cheatsheets/releases/latest)**\n`);
 R.push(
   `${total} everyday commands for ${sheets.length} platforms that IT admins and network engineers use every week: Cisco, Juniper, FortiGate, MikroTik, Ubiquiti, Linux and Windows networking, Git, Azure CLI, Active Directory, Exchange Online and Microsoft Graph PowerShell. Every command is checked against the vendor's official documentation, destructive commands carry a warning, and each sheet lists the pages it was verified against.`,
   '',
@@ -176,8 +173,7 @@ R.push(
   `The cheat sheet content is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You may copy, adapt and share it, including commercially, with attribution. Suggested attribution: "IT command cheat sheets by EpiFive, ${SITE}/cheatsheets, CC BY 4.0". Vendor and product names are trademarks of their owners; this project is not affiliated with or endorsed by any vendor.`,
   '',
 );
-R.push('---', '');
-R.push(`Made by [EpiFive](${SITE}): practical IT, cloud and networking guides.`, '');
+R.push("---\n\n<p align=\"center\">Made by <b>EpiFive</b> — <a href=\"https://www.epifive.com/?utm_source=github&utm_medium=readme&utm_campaign=it-cheatsheets\">www.epifive.com</a> · <a href=\"https://www.epifive.com/open-source?utm_source=github&utm_medium=readme&utm_campaign=it-cheatsheets\">more open-source projects</a></p>\n");
 fs.writeFileSync(path.join(HERE, 'README.md'), R.join('\n'));
 
 // ---------- Issue template and repo metadata ----------
